@@ -6,3 +6,5 @@ This is a devboard with an accelerometer/gyroscope and an RP2040 MCU. The design
 This project is for HORIZONS EUROPA  
 
 Everything is logged in JOURNAL.md
+
+**Time taken: 13h**
