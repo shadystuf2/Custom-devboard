@@ -1,13 +1,14 @@
 ---
-Title: "Custom Devboard"
+Title: "Fancy Devboard"
 Author: "Nomeda"
-Description: "A custom PCB that was inspired by the tutorial from STASIS but I added a few extra elements!"
+Description: "A custom PCB that has an RP2040 and an accelerometer"
 Created at: "2026-06-21"
 ---
 
+THIS PROJECT IS FOR HORIZONS EUROPA
+
 ## June 11th: Got schematics done and started the layout
-My friend introduced STASIS (and Hack Club) to out friendgroup so naturally we decided to pick the most difficult starter proejct - 
-a custrom devboard. We followed the tutorial and drew our schematics on KiCad. Honestly, I struggled with I/O labels a bit, since the
+I got the inspiration for this from one of the starter projects in STASIS but decided to add some sensors and designs. I followed the tutorial for schematics on KiCad. Honestly, I struggled with I/O labels a bit, since the
 shapes sometimes don't make sense. Also, dealing with the crystal oscillator was funny, since we thought that we had the wrong schematic,
 since it had only 3 pins. Turns out the 4th one was hidding under one of the other pins and we had to modify the schema manually. 
 Then we were looking for footprints which was a very tedious job. I also helped out my friend, as he was struggling with the overall 
@@ -20,7 +21,7 @@ Finished schematic:
 
 
 ## June 18th: Finished layout and routing
-I arranged the componenets on a basic rectangle, since I want the devboard to be compact and usable. Then (very convinient timing) I decided,
+This is where I stopped following the tutorial. The layout and routing is completely my own. I arranged the componenets on a basic rectangle, since I want the devboard to be compact and usable. Then (very convinient timing) I decided,
 that I want to add a sensor and chose an accelerometer and gyroscope MPU-6050. I noticed that a switch that was in the schematic was 
 missing, so I had to reload and delete and add it several times. Then I started routing and had to rearrange the components so that 
 everything would fit. Many hours later, I added ground fill, saw the number of errors that popped up and closed my PC immedietly.  
