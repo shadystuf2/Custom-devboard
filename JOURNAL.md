@@ -2,7 +2,7 @@
 Title: "Fancy Devboard"
 Author: "Nomeda"
 Description: "A custom PCB that has an RP2040 and an accelerometer"
-Created at: "2026-06-21"
+Created at: "2026-06-11"
 ---
 
 THIS PROJECT IS FOR HORIZONS EUROPA
